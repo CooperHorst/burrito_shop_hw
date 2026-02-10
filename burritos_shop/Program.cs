@@ -91,6 +91,8 @@ class Program
 
         int itemsold = 0;
 
+       
+
         for (itemsold = 0; ; itemsold++)
         {
             decimal revenue = unitprice * itemsold;
@@ -99,17 +101,17 @@ class Program
 
             if (profit <= 0)
             {
-                Console.Writeline($"After selling {itemsold} burritos: profit {profit:F2}.");
+                Console.WriteLine($"After selling {itemsold} burritos: profit {profit:F2}.");
 
             }
             else
             {
-                Console.Writeline("------------------------------------");
-                Console.Writeline("Success! Profit reached.");
-                Console.Writeline($"Number of Burritos: {itemsold}");
-                Console.Writeline($"Revenue: ${revenue:F2}");
-                Console.Writeline($"Cost: ${cost:F2}");
-                Console.Writeline($"Profit: ${profit:F2}");
+                Console.WriteLine("------------------------------------");
+                Console.WriteLine("Success! Profit reached.");
+                Console.WriteLine($"Number of Burritos: {itemsold}");
+                Console.WriteLine($"Revenue: ${revenue:F2}");
+                Console.WriteLine($"Cost: ${cost:F2}");
+                Console.WriteLine($"Profit: ${profit:F2}");
                 break;
             }
         }
@@ -128,9 +130,15 @@ class Program
         Console.WriteLine("------------------------------------");
 
         // Please Enter Your While Loop Codes Here
+/*
+        decimal unitprice = 9.00m;
+        decimal mincost = 1200.00m;
+        decimal unitcost = 3.80m;
+
+        while (profit<0)
 
         
-
+*/
 
 
         Console.WriteLine("\nPress any key to return to menu...");
