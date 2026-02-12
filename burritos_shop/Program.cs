@@ -83,7 +83,7 @@ class Program
         Console.WriteLine("Calculating the break-even point using for loop ... ");
         Console.WriteLine("------------------------------------");
 
-        // Please Enter Your For Loop Codes Here
+        // Please Enter Your For Loop Codes
 
         decimal unitprice = 9.00m;
         decimal mincost = 1200.00m;
